@@ -1750,6 +1750,8 @@
  <t id="8917">Registering your game will reward you with a special paint modification for your ships as well as any pre-order rewards you have earned. Stay tuned for more updates as we have exciting things coming your way soon.</t>
  <t id="8918">https://forum.egosoft.com/</t>
  <t id="8919">Your GPU may not have enough memory to support these settings. We recommend lowering the texture quality or resolution, or disabling graphics options such as antialiasing.</t>
+ <t id="8920">Graphics Card</t>
+ <t id="8921">Screen</t>
  <t id="9000">Encyclopedia Index</t>
  <t id="9001">New</t>
  <t id="9002">Unknown</t>
@@ -4444,6 +4446,7 @@
  <t id="7820">The selected Builder is already busy.</t>
  <t id="7821">The station already has an assigned Builder.</t>
  <t id="7822">No personnel on board to claim this ship.</t>
+ <t id="7823">No resources of the correct storage type at these coordinates.</t>
  <t id="7900">(station configuration menu mouse overs)</t>
  <t id="7901">Select a name and save the current construction plan.</t>
  <t id="7902">Reset to top view.</t>

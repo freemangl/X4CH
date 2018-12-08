@@ -183,7 +183,7 @@
  <t id="1133">显示</t>
  <t id="1134">(As in this module is part of this station)从属于</t>
  <t id="1135">配置飞船</t>
- <t id="1136"> 配置空间站</t>
+ <t id="1136">配置空间站</t>
  <t id="1137">飞船概览</t>
  <t id="1138">空间站概览</t>
  <t id="1200">区域财产</t>
@@ -962,7 +962,7 @@
  <t id="4880">在贸易菜单显示未编队飞船</t>
  <t id="4881">FXAA</t>
  <t id="4882">显示工具提示</t>
- <t id="4883">游戏存档压缩</t>
+ <t id="4883">游戏存档压缩（进阶用户设定）</t>
  <t id="4884">打开菜单时保持速度</t>
  <t id="4885">需要未知的游戏版本</t>
  <t id="4886">侧控制台</t>
@@ -1445,7 +1445,7 @@
  <t id="8005">当前修改</t>
  <t id="8006">添加到购物列表</t>
  <t id="8007">当前无选择</t>
- <t id="8008">机架</t>
+ <t id="8008">船体</t>
  <t id="8009">购物列表</t>
  <t id="8010">取消订单</t>
  <t id="8011">确认订单</t>
@@ -1475,13 +1475,13 @@
  <t id="8035">关闭菜单</t>
  <t id="8036">安装模组将直接从你的账户中扣除金额。</t>
  <t id="8037">价格列表</t>
- <t id="8038">机架改装</t>
+ <t id="8038">船体改装</t>
  <t id="8039">最多增加1个资产</t>
  <t id="8040">最多增加%d($NUMBER_OF_PROPERTIES$)个资产</t>
  <t id="8041">%s($COLOR$)%\053.0f%%($MOD_PROPERTY_VALUE$)\033X到%s($COLOR$)%\053.0f%%($MOD_PROPERTY_VALUE$)</t>
  <t id="8042">%s($COLOR$)%\053d($MOD_PROPERTY_VALUE$)\033X到%s($COLOR$)%\053d($MOD_PROPERTY_VALUE$)</t>
  <t id="8043">花费%s($MONEY_AMOUNT$)安装</t>
- <t id="8044">机架护盾发生器</t>
+ <t id="8044">船体护盾发生器</t>
  <t id="8045">概览</t>
  <t id="8046">缺少资源</t>
  <t id="8047">必备</t>
@@ -1750,6 +1750,8 @@
  <t id="8917">注册游戏后你可获得一份特别的飞船喷涂改装以及任何已获得的预购奖励。请继续关注游戏更新，更多激动人心的内容正蓄势待发。</t>
  <t id="8918">https://forum.egosoft.com/</t>
  <t id="8919">你的显卡没有足够的显存来支持目前的设定，建议你降低纹理质量、分辨率以及抗锯齿等画质选项。</t>
+ <t id="8920">显卡</t>
+ <t id="8921">屏幕</t>
  <t id="9000">百科全书索引</t>
  <t id="9001">新增</t>
  <t id="9002">未知的</t>
@@ -3058,13 +3060,13 @@
  <t id="902">记得为你所有飞船配备飞行员，包括你当前所在的飞船。</t>
  <t id="904">正在接近船台或装备坞。可以通过帮助菜单选取相应教程来学习如何升级（$INPUT_ACTION_HELP$）。</t>
  <t id="905">你正在造船厂附近。请考虑在这里部署一颗人造卫星。</t>
- <t id="906">在异常现象附近部署一个信标，以便在地图上标记它。</t>
+ <t id="906">在异常现象附近部署一个信标，以便把它标记在地图上。</t>
  <t id="907">非法物品可以出售给黑市贸易商。</t>
  <t id="908">非法货物可以出售给黑市贸易商。</t>
  <t id="909">接受任务以寻找黑市贸易商。</t>
  <t id="910">你捡起了太空飞虫卵。现在能在空间站上使用工作台制作价格昂贵的虫卵酱了！</t>
  <t id="911">开始捕获教程来学习如何接管飞船。</t>
- <t id="920">你被势力代表邀请并获得奖励。</t>
+ <t id="920">你被势力代表邀请前去领取奖赏。</t>
  <t id="921">打开任务界面以激活邀请任务。</t>
  <t id="930">帮助菜单中提供了教程。按X打开菜单。</t>
  <t id="1000">(Generic Hints)</t>
@@ -3078,9 +3080,9 @@
  <t id="1021">必须在太空中驾驶飞船以开始此教程。</t>
  <t id="1022">你需要拥有至少$CREDITS$信用币以进行本教程。</t>
  <t id="1023">要进行本教程，你首先要建造自己的空间站。</t>
- <t id="1024">要进行本教程，你驾驶的飞船或你的小队中至少一艘飞船必须拥有固体仓储。</t>
+ <t id="1024">要进行本教程，你驾驶的或你小队中的一艘飞船必须拥有固体仓储。</t>
  <t id="1025">本教程需要你处在小行星带附近。</t>
- <t id="1030">按$INPUT_ACTION_OPEN_COCKPIT_MENU$打开空间站菜单，选择"返回飞船"或按$INPUT_ACTION_DOCK_ACTION$快速返回你的飞船。</t>
+ <t id="1030">按$INPUT_ACTION_OPEN_COCKPIT_MENU$打开空间站菜单然后选择"返回飞船"，或按$INPUT_ACTION_DOCK_ACTION$快速返回你的飞船。</t>
  <t id="1031">选择"离港"或按$INPUT_ACTION_DOCK_ACTION$离港。</t>
  <t id="1040">点击座椅或对座椅按$INPUT_STATE_INTERACTION_MENU$坐下。</t>
  <t id="2000">(Flight school)</t>
@@ -4444,6 +4446,7 @@
  <t id="7820">所选的建筑师已经很忙了。</t>
  <t id="7821">该空间站已经有一个指定的建筑师。</t>
  <t id="7822">上面没有人来接管飞船。</t>
+ <t id="7823">坐标位置没有匹配仓储类型要求的资源。</t>
  <t id="7900">(station configuration menu mouse overs)</t>
  <t id="7901">选择名称并保存当前的施工计划。</t>
  <t id="7902">回到顶层视图。</t>
@@ -4965,7 +4968,7 @@
  <t id="28">\"别跟我说人不属于那里。人属于任何他想去的地方——而且当他到达那里时会干得不错。\"\n\n——沃纳·冯·布劳恩（1912 - 1977）</t>
  <t id="29">\"紧紧抓住梦想，因梦想若消亡，生命就是一只折翼之鸟再也不能飞翔。\"\n\n——蓝斯顿·休斯（1902 - 1967）</t>
  <t id="30">\"思想就像降落伞——唯有打开才起作用。\"\n\n——托马斯·杜瓦（1864 - 1930）</t>
- <t id="31">\"目标月球。即使你错过了，也会落在群星之中。\"\n\n——莱斯·布朗（1945-）</t>
+ <t id="31">"目标月球。即使你错过了，也会落在群星之中。"\n\n——莱斯·布朗（1912 - 2001）</t>
  <t id="32">\"现在被证实的在过去只是想象。\"\n\n——威廉·布莱克（1757 - 1827）</t>
  <t id="33">\"甚至连傻瓜都知道你无法够到星星，但是这并不能阻止聪明人有所尝试。\"\n\n——哈里·安德森（1952 -）</t>
  <t id="34">\"而如果你长久凝视一个深渊，深渊也在凝视着你。\"\n\n——夫里德里克·尼采（1844 - 1900）</t>
@@ -4989,7 +4992,7 @@
  <t id="52">\"时间是燃烧我们的火焰。\"\n\n——德尔摩尔·施瓦茨（1913 - 1966）</t>
  <t id="53">\"我不知道当你一天看到四次美丽的日落时会说些什么。\"\n\n——约翰·格伦（1921 -）</t>
  <t id="54">\"那个微小的豆粒突然让我惊奇，秀丽而蔚蓝，那就是地球。我举起拇指并闭上一只眼睛，我的拇指遮住了行星地球。我无法感受到它的巨大。我感觉它非常，非常渺小。\"\n\n——尼尔·阿姆斯特朗（1930 - 2012）</t>
- <t id="55">\"把我们的注意力局限于地表上的事情是对人类精神的限制。\"\n\n——斯蒂芬·霍金（1942 -）</t>
+ <t id="55">"把我们的注意力局限于地表上的事情是对人类精神的限制。"\n\n——斯蒂芬·霍金（1942 - 2018）</t>
  <t id="56">\"昨日科幻，今日事实，明日过时。\"\n\n——奥托 O。宾得（1911 - 1974）</t>
  <t id="57">\"要有翅膀! 如果这成就不属于我，也会属于别人。灵魂不灭；而人，应知晓全部并应有翅膀……\"\n\n——莱昂纳多·达芬奇（1452 - 1519）</t>
  <t id="58">\"人的思想和精神随着他们能够活动的空间成长。\"\n\n——克拉夫特·A·埃里克（1917 - 1984）</t>
@@ -14521,13 +14524,13 @@
  <t id="1009">*** 喋喋不休 ***</t>
  <t id="1010">*** 欢呼 ***</t>
  <t id="2000">(* Pleasantries *)</t>
- <t id="2001">(Greeting - neutral)Greetings.</t>
+ <t id="2001">(Greeting - neutral)向你问好。</t>
  <t id="2002">(Greeting - neutral)你好。</t>
  <t id="2003">(Greeting - enemy)有什么事？</t>
  <t id="2004">(Greeting - rejected)我没兴趣和你说话。</t>
  <t id="2005">(Greeting - over comms)通讯已接通。</t>
  <t id="2006">(Greeting - trader / staff)有什么我能帮忙的吗？</t>
- <t id="2007">(Goodbye - neutral)Safe journey.</t>
+ <t id="2007">(Goodbye - neutral)一路平安。</t>
  <t id="2008">(Goodbye - neutral)再见。</t>
  <t id="2009">(Goodbye - enemy)Begone.</t>
  <t id="2010">(Goodbye - over comms)通讯完毕。</t>
@@ -15733,13 +15736,13 @@
  <t id="1009">*** 喋喋不休 ***</t>
  <t id="1010">*** 欢呼 ***</t>
  <t id="2000">(* Pleasantries *)</t>
- <t id="2001">(Greeting - neutral)Greetings.</t>
+ <t id="2001">(Greeting - neutral)向你问好。</t>
  <t id="2002">(Greeting - neutral)你好。</t>
  <t id="2003">(Greeting - enemy)有什么事？</t>
  <t id="2004">(Greeting - rejected)我没兴趣和你说话。</t>
  <t id="2005">(Greeting - over comms)通讯已接通。</t>
  <t id="2006">(Greeting - trader / staff)有什么我能帮忙的吗？</t>
- <t id="2007">(Goodbye - neutral)Safe journey.</t>
+ <t id="2007">(Goodbye - neutral)一路平安。</t>
  <t id="2008">(Goodbye - neutral)再见。</t>
  <t id="2009">(Goodbye - enemy)Begone.</t>
  <t id="2010">(Goodbye - over comms)通讯完毕。</t>
@@ -24634,7 +24637,7 @@
  <t id="14303">{20201,4101}</t>
  <t id="14401">日出花产线</t>
  <t id="14402">{20006,102}(No information available)</t>
- <t id="14403">Sunrise Flower</t>
+ <t id="14403">日出花</t>
  <t id="14501">沼泽植物产线</t>
  <t id="14502">{20006,102}(No information available)</t>
  <t id="14503">{20201,4401}</t>
@@ -24775,7 +24778,7 @@
  <t id="30000">(*Habitation Modules*)</t>
  <t id="30101">(Argon S Habitat){20202,101} {20111,5011} {20104,30103}</t>
  <t id="30102">{20006,102}(No information available)</t>
- <t id="30103">栖息地</t>
+ <t id="30103">居住区</t>
  <t id="30201">(Argon M Habitat){20202,101} {20111,5021} {20104,30203}</t>
  <t id="30202">{20006,102}(No information available)</t>
  <t id="30203">(Habitat){20104,30103}</t>
@@ -25173,11 +25176,11 @@
  <t id="101802">{20006,102}(No information available)</t>
  <t id="101901">远征平台</t>
  <t id="101902">{20006,102}(No information available)</t>
- <t id="102001">Habitat Dock Area</t>
+ <t id="102001">栖息地港口</t>
  <t id="102002">{20006,102}(No information available)</t>
- <t id="102101">Habitat Ring Clamp</t>
+ <t id="102101">栖息地环加固结构</t>
  <t id="102102">{20006,102}(No information available)</t>
- <t id="102201">Habitat Service Section</t>
+ <t id="102201">栖息地服务区</t>
  <t id="102202">{20006,102}(No information available)</t>
 </page>
 
@@ -26936,7 +26939,7 @@
  <t id="12000">(* Ship Properties *)</t>
  <t id="12001">飞船重量</t>
  <t id="12002">飞船的重量。影响所有的加速数值。越高的重量意味着越低的加速能力。</t>
- <t id="12011">飞船拖力</t>
+ <t id="12011">飞船阻力</t>
  <t id="12012">{20006,102}(No information available)</t>
  <t id="12021">飞船最大船体</t>
  <t id="12022">飞船的最大船体值。</t>
@@ -27227,7 +27230,7 @@
  <t id="10542">涂装改装0054的说明</t>
  <t id="10551">涂装改装0055</t>
  <t id="10552">涂装改装0055的说明</t>
- <t id="10561">涂装改装0056</t>
+ <t id="10561">黑曜石 X</t>
  <t id="10562">涂装改装0056的说明</t>
 </page>
 
@@ -28284,12 +28287,12 @@
  <t id="1282">该装备可让你通过太空服的EMP攻击，骇入居住模块的系统以窃取相关蓝图。</t>
  <t id="1291">建造模块入侵装备</t>
  <t id="1292">该装备可让你通过太空服的EMP攻击，骇入建造模块的系统以窃取相关蓝图。</t>
- <t id="1301">基础机架改装</t>
- <t id="1302">允许制造基础飞船机架改装件。</t>
- <t id="1311">高级机架改装</t>
- <t id="1312">允许制造更先进的飞船机架改装件。</t>
- <t id="1321">特级机架改装</t>
- <t id="1322">允许制造最尖端的飞船机架改装件。</t>
+ <t id="1301">基础船体改装</t>
+ <t id="1302">允许制造基础船体改装件。</t>
+ <t id="1311">高级船体改装</t>
+ <t id="1312">允许制造更先进的船体改装件。</t>
+ <t id="1321">特级船体改装</t>
+ <t id="1322">允许制造最尖端的船体改装件。</t>
  <t id="1331">基础引擎改装</t>
  <t id="1332">允许制造基础飞船引擎改装件。</t>
  <t id="1341">高级引擎改装</t>
@@ -30021,7 +30024,7 @@
  <t id="15803">Falcon</t>
  <t id="15901">{29101, 15903}</t>
  <t id="15902">These ships most commonly have only a single seat, though some do carry enough space for two or three people. They carry no weapons or shields, and can only transport between stations in a single zone. For this reason, their most common use is by civilians.</t>
- <t id="15903">Civilian Ship</t>
+ <t id="15903">民用飞船</t>
  <t id="16001">{29101, 16003}</t>
  <t id="16002">Mass Transporters are used by companies to ferry both their staff and their customers between stations in a single area. It is uncommon for them to carry any form of shields, and they are too small to support any armament. Depending on their exact size, they can carry between five and twenty people, including the pilot.</t>
  <t id="16003">Mass Transporter</t>
@@ -32254,7 +32257,7 @@
  <t id="5110">(briefing - section 2)</t>
  <t id="5111">我们希望尽可能快速有效地解决这些问题，我们在寻找足智多谋的飞行员来帮助我们进行这项工作。这将使我们所有会员都能享受更加便利的贸易。</t>
  <t id="5112">我们正在寻找一名适应能力强、足智多谋的飞行员，帮助我们迅速有效地解决这些问题，让我们所有的会员都能继续他们的事业，帮助我们不断发展。</t>
- <t id="6000">(title variants)Market Manipulation</t>
+ <t id="6000">(title variants)市场操纵</t>
  <t id="6100">(briefing - section 1)</t>
  <t id="6101">在安提戈涅贸易协会，确保我们的成员和他们所有的资产都能继续经营下去，并且还能盈利，这是我们的首要任务。为了实现这一点，有时候除了保持我们的空间站的库存和确保我们的会员可以交易之外，还需要做更多的工作。</t>
  <t id="6102">我们的首要任务是保障会员们顺利交易并持续盈利，有时，除了保障会员的空间站库存和向他们提供有关寻获最优交易的建议之外，我们还有必要使用一些其他的手段。</t>
@@ -32493,7 +32496,7 @@
 </page>
 
 <page id="30210" title="Argon-Xenon War" descr="Texts for the 'Argon-Xenon war' mission-group and sub-mission variants" voice="no">
- <t id="1">(missiongroup)Argon VS Xenon</t>
+ <t id="1">(missiongroup)Argon Vs. Xenon</t>
  <t id="2">由于我们与Xenon星域非常接近，我们正在招募志愿者以帮助我们巩固边境并击退任何Xenon的入侵行动。无论你拥有什么样的技能，我们都有许多类型的任务可供分派，别犹豫，加入我们吧！</t>
  <t id="3">Xenon作战室</t>
  <t id="10">(intro mission)加入战斗!</t>
@@ -32997,7 +33000,7 @@
 </page>
 
 <page id="30212" title="Paranid-Holy Order War" descr="Texts for the 'Paranid-Holy Order war' mission-group and sub-mission variants" voice="no">
- <t id="1">(missiongroup)正义的Paranid帝国 Vs. "异教团"</t>
+ <t id="1">(missiongroup)正统Paranid帝国 Vs. "异教团"</t>
  <t id="2">我们燃烧的圣光日新月异。我们发现自己受到了那些被傲慢引入歧途的兄弟的挑战。虽然我们希望将其中的一些人拯救回来，但他们的"执政"领导人希望他们继续沿着这条亵渎和毁灭的道路走下去。我们寻求提拔那些愿意援助Paranid帝国的人，以便他们能够沐浴在帝国的荣耀中。如果你对自己的能力有信心，我们愿意倾听你的诉求。</t>
  <t id="3">异教团作战室</t>
  <t id="10">(intro mission)解除烦恼</t>
