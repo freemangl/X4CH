@@ -1381,6 +1381,7 @@
  <t id="7871">Wing: Withdraw and hold</t>
  <t id="7872">Wing: Withdraw from combat</t>
  <t id="7873">Hire for building</t>
+ <t id="7874">Remove all orders and wait</t>
  <t id="7900">(Station configuration menu)</t>
  <t id="7901">Turret Groups</t>
  <t id="7902">Station configuration</t>
@@ -1439,6 +1440,7 @@
  <t id="7955">M Launch tubes</t>
  <t id="7956">S Launch tubes</t>
  <t id="7957">Food required for %s($WORKFORCE_AMOUNT$) workers</t>
+ <t id="7958">There is neither a pier nor a dock module on this station.</t>
  <t id="8000">(Ship configuration menu)</t>
  <t id="8001">Thrusters</t>
  <t id="8002">Ability Drones</t>
@@ -1628,6 +1630,12 @@
  <t id="8367">Use global setting</t>
  <t id="8368">This person cannot reach any other place</t>
  <t id="8369">The selected workplace cannot be reached</t>
+ <t id="8370">Show allied orders</t>
+ <t id="8371">Display the order queues for all allied ships.</t>
+ <t id="8372">Display the order queues for all player-owned ships.</t>
+ <t id="8373">Current Role( of a subordinate)</t>
+ <t id="8374">Filled Capacity after all planned trades</t>
+ <t id="8375">Ship will not have the desired item after all planned trades</t>
  <t id="8400">(Logical Station Overview)</t>
  <t id="8401">Logical Overview</t>
  <t id="8402">Automatic pricing</t>
@@ -1647,6 +1655,13 @@
  <t id="8416">The station is missing storage of this type in the current plan.</t>
  <t id="8417">Build Progress</t>
  <t id="8418">Done</t>
+ <t id="8419">No build in progress.</t>
+ <t id="8420">Production budget</t>
+ <t id="8421">Ship construction budget</t>
+ <t id="8422">Production and ship construction budget</t>
+ <t id="8423">Supply budget</t>
+ <t id="8424">Restrict orders from other factions</t>
+ <t id="8425">Construction prices for other factions</t>
  <t id="8500">(Ship configuration menu - continued from 80XX)</t>
  <t id="8501">Choose a medium shield</t>
  <t id="8502">Choose a large shield</t>
@@ -1675,6 +1690,7 @@
  <t id="8525">Number of S Docks</t>
  <t id="8526">M Ship Capacity</t>
  <t id="8527">S Ship Capacity</t>
+ <t id="8528">Missing blueprints to create a valid loadout for this ship.</t>
  <t id="8600">(Docked Menu)</t>
  <t id="8601">Ship Interactions</t>
  <t id="8602">Ship Information</t>
@@ -1770,6 +1786,9 @@
  <t id="8928">Username too long \(max. 255 characters\)</t>
  <t id="8929">Password too long \(max. 4096 characters\)</t>
  <t id="8930">Autosave Interval</t>
+ <t id="8931">Delete</t>
+ <t id="8932">Choose savegame name</t>
+ <t id="8933">Are you sure you want to delete this savegame?</t>
  <t id="9000">Encyclopedia Index</t>
  <t id="9001">New</t>
  <t id="9002">Unknown</t>
@@ -3089,6 +3108,7 @@
  <t id="911">Start the capturing tutorial to learn about taking over a ship.</t>
  <t id="920">You were invited by a faction representative to be rewarded.</t>
  <t id="921">Open your mission interface to activate the invitation mission.</t>
+ <t id="922">You can search the map for specific ships in areas for which you have live satellite coverage.</t>
  <t id="930">Tutorials available in HELP menu. Press X to open menus.</t>
  <t id="1000">(Generic Hints)</t>
  <t id="1001">You can abort this tutorial in the '{1001,8701}' menu.</t>
@@ -3581,7 +3601,7 @@
  <t id="14003">While most ships have CONTAINER STORAGE, mining ships have SOLID STORAGE.</t>
  <t id="14004">To continue this tutorial your own ship or one ship in your squad must have SOLID STORAGE.</t>
  <t id="14005">You should also have a MINING LASER equipped.</t>
- <t id="14020">Fly towards an asteroid.</t>
+ <t id="14020">Fly towards an asteroid field.</t>
  <t id="14021">To judge your chances for mining you can deploy a RESOURCE PROBE.</t>
  <t id="14030">Press $INPUT_ACTION_OPEN_COCKPIT_MENU$ to open SHIP MENU.</t>
  <t id="14040">Select RESOURCE PROBE from DEPLOY CIVILIAN.</t>
@@ -3589,12 +3609,15 @@
  <t id="14052">Near your ship you can now see the local YIELDS.</t>
  <t id="14053">Close the map.</t>
  <t id="14060">Select different asteroids as targets and check your TARGET MONITOR.</t>
- <t id="14061">Search for an asteroids with a high yield of any of the three types.</t>
+ <t id="14061">Search for an asteroid with a high yield of any of the three types.</t>
  <t id="14062">You can use PREV/NEXT target buttons to select nearby asteroids.</t>
- <t id="14100">Fly close to this asteroid.</t>
+ <t id="14100">Fly close to the selected asteroid.</t>
  <t id="14101">Press $INPUT_ACTION_TOGGLE_SCAN_MODE$ to activate SCAN MODE.</t>
  <t id="14102">Flying around the asteroid you can now see traces of minerals.</t>
  <t id="14103">Fire a MINING LASER at these nodes.</t>
+ <t id="14120">{1012,4010}(Press $INPUT_ACTION_OPEN_COCKPIT_MENU$ to open the ship menu.)</t>
+ <t id="14121">Change the turret behaviour to {1001,8616}(Mining).</t>
+ <t id="14122">Fly close to asteroids.</t>
  <t id="14200">There are now mineral drops nearby in space.</t>
  <t id="14201">Pick them up with a ship with SOLID STORAGE.</t>
  <t id="14202">Fly over the minerals to pick them up.</t>
@@ -3858,6 +3881,7 @@
  <t id="409">Tutorial aborted: need satellite.</t>
  <t id="410">Tutorial aborted: ship not owned.</t>
  <t id="411">Tutorial aborted: not on owned ship.</t>
+ <t id="412">Tutorial aborted: enemies nearby.</t>
  <t id="500">Warning: about to leave staging area.</t>
  <t id="600">Currently no mission available</t>
  <t id="601">No mission available during tutorial</t>
@@ -3875,6 +3899,7 @@
  <t id="810">Marines report good progress</t>
  <t id="811">The marines are suffering losses</t>
  <t id="812">The marines are retreating</t>
+ <t id="906">{30004,7006}(Station ownership transferred)</t>
 </page>
 
 <page id="1016" title="Logbook Texts" descr="0" voice="no">
@@ -4477,6 +4502,9 @@
  <t id="7821">The station already has an assigned Builder.</t>
  <t id="7822">No personnel on board to claim this ship.</t>
  <t id="7823">No resources of the correct storage type at these coordinates.</t>
+ <t id="7824">It is not possible for your ship to dock at this object.</t>
+ <t id="7825">Your relations are too low to dock at this object.</t>
+ <t id="7826">This option will also remove any assignment to another object.</t>
  <t id="7900">(station configuration menu mouse overs)</t>
  <t id="7901">Select a name and save the current construction plan.</t>
  <t id="7902">Reset to top view.</t>
@@ -4971,7 +4999,7 @@
 </page>
 
 <page id="1099" title="Quotes" descr="0" voice="no">
- <t id="0">(number of entries)67</t>
+ <t id="0">(number of entries)65</t>
  <t id="1">"Life is pleasant.\nDeath is peaceful.\nIt's the transition that's troublesome."\n\n- Isaac Asimov \(1920-1992\)</t>
  <t id="2">"Be nice to people on your way up because you meet them on your way down." \n\n- Jimmy Durante \(1893-1980\)</t>
  <t id="3">"If you want to make an apple pie from scratch, you must first create the universe."\n\n- Carl Sagan \(1934 -1996\)</t>
@@ -4996,49 +5024,47 @@
  <t id="22">"To win one hundred victories in one hundred battles is not the highest skill. To subdue the enemy without fighting, is the highest skill." \n\n- Sun-Tsu \(500BC\)</t>
  <t id="23">"There must be something worth living for\nThere must be something worth trying for\nEven some things worth dying for\nAnd if one man can stand tall\nThere must be some hope for us all\nSomewhere, somewhere in the spirit of man" \n\n- War of the Worlds musical by Jeff Wayne</t>
  <t id="24">"Mother, I saw a dream in the night. There were stars in the sky for me." \n\n- The Epic of Gilgamesh \(around 800 BC\)</t>
- <t id="25">"The greatest gain from space travel consists in the extension of our knowledge. In a hundred years this newly won knowledge will pay huge and unexpected dividends." \n\n- Wernher von Braun \(1912-1977\)</t>
- <t id="26">"To go places and do things that have never been done before - that's what living is all about." \n\n- Michael Collins \(1930-\)</t>
- <t id="27">"It's human nature to stretch, to go, to see, to understand. Exploration is not a choice, really; it's an imperative." \n\n- Michael Collins \(1930-\)</t>
- <t id="28">"Don't tell me that man doesn't belong out there. Man belongs wherever he wants to go - and he'll do plenty well when he gets there." \n\n- Wernher von Braun \(1912-1977\)</t>
- <t id="29">"Hold fast to dreams, for if dreams die, life is a broken bird that cannot fly." \n\n- Langston Hughes \(1902-1967\)</t>
- <t id="30">"Minds are like parachutes - they only function when open." \n\n- Thomas Dewar \(1864-1930\)</t>
- <t id="31">"Shoot for the moon. Even if you miss, you'll land among the stars." \n\n- Les Brown \(1945-\)</t>
- <t id="32">"What is now proved was once only imagined." \n\n- William Blake \(1757-1827\)</t>
- <t id="33">"Even a fool knows you can't touch the stars, but it doesn't stop a wise man from trying." \n\n- Harry Anderson \(1952-2018\)</t>
- <t id="34">"And if you gaze for long into an abyss, the abyss gazes also into you." \n\n- Friedrich Nietzsche \(1844-1900\)</t>
- <t id="35">"Following the light of the sun, we left the Old World." \n\n- Inscription on Columbus' caravels</t>
- <t id="36">"Throw your dreams into space like a kite, and you do not know what it will bring back, a new life, a new friend, a new love, a new country." \n\n- Anais Nin \(1903-1977\)</t>
- <t id="37">"If you can imagine it, you can achieve it. If you can dream it, you can become it." \n\n- William Arthur Ward \(1921-1994\)</t>
- <t id="38">"Imagination is the only weapon in the war against reality." \n\n- Jules de Gautier \(1811-1872\)</t>
- <t id="39">"The journey is the reward." \n\n- Taoist Saying</t>
- <t id="40">"It is good to have an end to journey toward, but it is the journey that matters in the end." \n\n- Ursula K. LeGuin \(1929-2018\)</t>
- <t id="41">"The universe is full of magical things patiently waiting for our wits to grow sharper." \n\n- Eden Phillpotts \(1862-1960\)</t>
- <t id="42">"Your current safe boundaries were once unknown frontiers." \n\n- Unknown</t>
- <t id="43">"The future belongs to those who believe in the beauty of their dreams." \n\n- Eleanor Roosevelt \(1884-1962\)</t>
- <t id="44">"Dreams are renewable. No matter what our age or condition, there are still untapped possibilities within us and new beauty waiting to be born." \n\n- Dale Turner</t>
- <t id="45">"There is a single light of science, and to brighten it anywhere is to brighten it everywhere." \n\n- Isaac Asimov \(1920-1992\)</t>
- <t id="46">"Reality is that part of the imagination we all agree on." \n\n- Unknown</t>
- <t id="47">"The most beautiful thing we can experience is the mysterious. It is the source of all true art and science." \n\n- Albert Einstein \(1879-1955\)</t>
- <t id="48">"Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world." \n\n- Albert Einstein \(1879-1955\)</t>
- <t id="49">"When I examine myself and my methods of thought, I come to the conclusion that the gift of fantasy has meant more to me than my talent for absorbing positive knowledge." \n\n- Albert Einstein \(1879-1955\)</t>
- <t id="50">"As far as the laws of mathematics refer to reality, they are not certain; and as far as they are certain, they do not refer to reality." \n\n- Albert Einstein \(1879-1955\)</t>
- <t id="51">"Any sufficiently advanced technology is indistinguishable from magic." \n\n- Arthur C. Clarke \(1917-2008\)</t>
- <t id="52">"Time is the fire in which we burn." \n\n- Delmore Schwartz \(1913-1966\)</t>
- <t id="53">"I don't know what you could say about a day in which you have seen four beautiful sunsets." \n\n- John Glenn \(1921-2016\)</t>
- <t id="54">"It suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth. I didn't feel like a giant. I felt very, very small." \n\n- Neil Armstrong \(1930-2012\)</t>
- <t id="55">"To confine our attention to terrestrial matters would be to limit the human spirit." \n\n- Stephen Hawking \(1942-2018\)</t>
- <t id="56">"Science-fiction yesterday, fact today, obsolete tomorrow." \n\n- Otto O. Binder \(1911-1974\)</t>
- <t id="57">"There shall be wings! If the accomplishment be not for me, 'tis for some other. The spirit cannot die; and man, who shall know all and shall have wings..." \n\n- Leonardo da Vinci \(1452-1519\)</t>
- <t id="58">"Man's mind and spirit grow with the space in which they are allowed to operate." \n\n- Krafft A. Ehricke \(1917-1984\)</t>
- <t id="59">"The important thing is not to stop questioning." \n\n- Albert Einstein \(1879-1955\)</t>
- <t id="60">"You would make a ship sail against the winds and currents by lighting a bonfire under her deck...I have no time for such nonsense." \n\n- Napoleon Bonaparte \(1769-1821\)</t>
- <t id="61">"The Earth is a cradle of the mind, but we cannot live forever in a cradle." \n\n- Konstantin E. Tsiolkovsky \(1857-1935\)</t>
- <t id="62">"Two possibilities exist: Either we are alone in the Universe or we are not. Both are equally terrifying." \n\n- Arthur C. Clarke \(1917-2008\)</t>
- <t id="63">"Space isn't remote at all. It's only an hour's drive away, if your car could go straight upwards." \n\n- Sir Fred Hoyle \(1915-2001\)</t>
- <t id="64">"Space is big. Really big." \n\n- Douglas Adams \(1952-2001\)</t>
- <t id="65">"I measured the skies\nNow the shadows I measure\nSkybound was the mind\nEarthbound the body rests." \n\n- Johannes Kepler \(1571-1630\)</t>
- <t id="66">"Discovery consists of seeing what everybody has seen and thinking what nobody has thought." \n\n- Albert Szent-Gyorgyi \(1893-1986\)</t>
- <t id="67">"Whether outwardly or inwardly, whether in space or time, the farther we penetrate the unknown, the vaster and more marvellous it becomes." \n\n- Charles A. Lindbergh \(1902-1974\)</t>
+ <t id="25">"To go places and do things that have never been done before - that's what living is all about." \n\n- Michael Collins \(1930-\)</t>
+ <t id="26">"It's human nature to stretch, to go, to see, to understand. Exploration is not a choice, really; it's an imperative." \n\n- Michael Collins \(1930-\)</t>
+ <t id="27">"Hold fast to dreams, for if dreams die, life is a broken bird that cannot fly." \n\n- Langston Hughes \(1902-1967\)</t>
+ <t id="28">"Minds are like parachutes - they only function when open." \n\n- Thomas Dewar \(1864-1930\)</t>
+ <t id="29">"Shoot for the moon. Even if you miss, you'll land among the stars." \n\n- Les Brown \(1945-\)</t>
+ <t id="30">"What is now proved was once only imagined." \n\n- William Blake \(1757-1827\)</t>
+ <t id="31">"Even a fool knows you can't touch the stars, but it doesn't stop a wise man from trying." \n\n- Harry Anderson \(1952-2018\)</t>
+ <t id="32">"And if you gaze for long into an abyss, the abyss gazes also into you." \n\n- Friedrich Nietzsche \(1844-1900\)</t>
+ <t id="33">"Following the light of the sun, we left the Old World." \n\n- Inscription on Columbus' caravels</t>
+ <t id="34">"Throw your dreams into space like a kite, and you do not know what it will bring back, a new life, a new friend, a new love, a new country." \n\n- Anais Nin \(1903-1977\)</t>
+ <t id="35">"If you can imagine it, you can achieve it. If you can dream it, you can become it." \n\n- William Arthur Ward \(1921-1994\)</t>
+ <t id="36">"Imagination is the only weapon in the war against reality." \n\n- Jules de Gautier \(1811-1872\)</t>
+ <t id="37">"The journey is the reward." \n\n- Taoist Saying</t>
+ <t id="38">"It is good to have an end to journey toward, but it is the journey that matters in the end." \n\n- Ursula K. LeGuin \(1929-2018\)</t>
+ <t id="39">"The universe is full of magical things patiently waiting for our wits to grow sharper." \n\n- Eden Phillpotts \(1862-1960\)</t>
+ <t id="40">"Your current safe boundaries were once unknown frontiers." \n\n- Unknown</t>
+ <t id="41">"The future belongs to those who believe in the beauty of their dreams." \n\n- Eleanor Roosevelt \(1884-1962\)</t>
+ <t id="42">"Dreams are renewable. No matter what our age or condition, there are still untapped possibilities within us and new beauty waiting to be born." \n\n- Dale Turner</t>
+ <t id="43">"There is a single light of science, and to brighten it anywhere is to brighten it everywhere." \n\n- Isaac Asimov \(1920-1992\)</t>
+ <t id="44">"Reality is that part of the imagination we all agree on." \n\n- Unknown</t>
+ <t id="45">"The most beautiful thing we can experience is the mysterious. It is the source of all true art and science." \n\n- Albert Einstein \(1879-1955\)</t>
+ <t id="46">"Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world." \n\n- Albert Einstein \(1879-1955\)</t>
+ <t id="47">"When I examine myself and my methods of thought, I come to the conclusion that the gift of fantasy has meant more to me than my talent for absorbing positive knowledge." \n\n- Albert Einstein \(1879-1955\)</t>
+ <t id="48">"As far as the laws of mathematics refer to reality, they are not certain; and as far as they are certain, they do not refer to reality." \n\n- Albert Einstein \(1879-1955\)</t>
+ <t id="49">"Any sufficiently advanced technology is indistinguishable from magic." \n\n- Arthur C. Clarke \(1917-2008\)</t>
+ <t id="50">"Time is the fire in which we burn." \n\n- Delmore Schwartz \(1913-1966\)</t>
+ <t id="51">"I don't know what you could say about a day in which you have seen four beautiful sunsets." \n\n- John Glenn \(1921-2016\)</t>
+ <t id="52">"It suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth. I didn't feel like a giant. I felt very, very small." \n\n- Neil Armstrong \(1930-2012\)</t>
+ <t id="53">"To confine our attention to terrestrial matters would be to limit the human spirit." \n\n- Stephen Hawking \(1942-2018\)</t>
+ <t id="54">"Science-fiction yesterday, fact today, obsolete tomorrow." \n\n- Otto O. Binder \(1911-1974\)</t>
+ <t id="55">"There shall be wings! If the accomplishment be not for me, 'tis for some other. The spirit cannot die; and man, who shall know all and shall have wings..." \n\n- Leonardo da Vinci \(1452-1519\)</t>
+ <t id="56">"Man's mind and spirit grow with the space in which they are allowed to operate." \n\n- Krafft A. Ehricke \(1917-1984\)</t>
+ <t id="57">"The important thing is not to stop questioning." \n\n- Albert Einstein \(1879-1955\)</t>
+ <t id="58">"You would make a ship sail against the winds and currents by lighting a bonfire under her deck...I have no time for such nonsense." \n\n- Napoleon Bonaparte \(1769-1821\)</t>
+ <t id="59">"The Earth is a cradle of the mind, but we cannot live forever in a cradle." \n\n- Konstantin E. Tsiolkovsky \(1857-1935\)</t>
+ <t id="60">"Two possibilities exist: Either we are alone in the Universe or we are not. Both are equally terrifying." \n\n- Arthur C. Clarke \(1917-2008\)</t>
+ <t id="61">"Space isn't remote at all. It's only an hour's drive away, if your car could go straight upwards." \n\n- Sir Fred Hoyle \(1915-2001\)</t>
+ <t id="62">"Space is big. Really big." \n\n- Douglas Adams \(1952-2001\)</t>
+ <t id="63">"I measured the skies\nNow the shadows I measure\nSkybound was the mind\nEarthbound the body rests." \n\n- Johannes Kepler \(1571-1630\)</t>
+ <t id="64">"Discovery consists of seeing what everybody has seen and thinking what nobody has thought." \n\n- Albert Szent-Gyorgyi \(1893-1986\)</t>
+ <t id="65">"Whether outwardly or inwardly, whether in space or time, the farther we penetrate the unknown, the vaster and more marvellous it becomes." \n\n- Charles A. Lindbergh \(1902-1974\)</t>
 </page>
 
 <page id="10002" title="Ship Computer - Betty" descr="0" voice="yes">
@@ -24469,6 +24495,16 @@
  <t id="1011">Complex</t>
  <t id="1021">Refinery</t>
  <t id="1031">Farm</t>
+ <t id="1041">Defence Platform</t>
+ <t id="1042">{20006,102}(No information available)</t>
+ <t id="1051">Trading Station</t>
+ <t id="1052">{20006,102}(No information available)</t>
+ <t id="1061">Equipment Dock</t>
+ <t id="1062">{20006,102}(No information available)</t>
+ <t id="1071">Shipyard</t>
+ <t id="1072">{20006,102}(No information available)</t>
+ <t id="1081">Wharf</t>
+ <t id="1082">{20006,102}(No information available)</t>
  <t id="1101">Argon Defence Platform</t>
  <t id="1111">Argon Trading Station</t>
  <t id="1121">Argon Equipment Dock</t>
@@ -31385,49 +31421,59 @@
  <t id="104">(Conversation option)Deliver: $AMOUNT$x $WARE$</t>
  <t id="105">(Tool tip)Collect the items before trying to deliver them.</t>
  <t id="106">(Reward)Access to unsanctioned trade offers</t>
+ <t id="107">(Progress display)Delivered</t>
+ <t id="120">(Conversation sub-menu option)Deliver...</t>
  <t id="1000">(Illegal missions)</t>
  <t id="1001">A Lucrative Opportunity</t>
  <t id="1002">Regardless of what your governments and organisations tell you, people need what I'm selling, but my last runner didn't come through for me. I need someone to get to a supplier and bring me a new batch, without any fuss, and certainly without getting caught. I'm willing to pay more than the shipment's worth as I'm already behind schedule, and there'll be a bonus too. Are you interested?</t>
  <t id="1003">{30135,103}</t>
  <t id="1004">{30135,104}</t>
  <t id="1005">{30135,105}</t>
+ <t id="1007">{30135,107}</t>
  <t id="1101">Opportunity Knocks</t>
  <t id="1102">You may have noticed that recently, the local government and policing forces have been quite active in shutting down operations that they deem to be... unsuitable for the general public. This crackdown has affected my personal income, and I need someone to resupply me with some items that have gone missing in action. I'm willing to pay over the shipment's worth, and maybe a bonus for quick delivery. Are you interested?</t>
  <t id="1103">{30135,103}</t>
  <t id="1104">{30135,104}</t>
  <t id="1105">{30135,105}</t>
+ <t id="1107">{30135,107}</t>
  <t id="2000">(standalone GMs to explain production)</t>
  <t id="2001">Parts for Refinery Equipment Required</t>
  <t id="2002">Some of the refinery equipment used aboard this station is known to be quite temperamental, especially when used frequently. With this in mind, we're looking for someone to supply us with some small but key parts that we can use as replacements in case of a break-down, so that production is not slowed more than absolutely necessary.</t>
  <t id="2003">{30135,103}</t>
  <t id="2004">{30135,104}</t>
  <t id="2005">{30135,105}</t>
+ <t id="2007">{30135,107}</t>
  <t id="2101">Alternative Weapon Parts Needed</t>
  <t id="2102">With the Xenon an ever-constant threat to the Jump Gate network and the ongoing Paranid Civil War, demand for weapons has now been high for some time. In order to ensure a safe supply, we are starting to look beyond the standard weapon components brought to us by our trading partners and will pay good Credit for any parts that may help us with our production.</t>
  <t id="2103">{30135,103}</t>
  <t id="2104">{30135,104}</t>
  <t id="2105">{30135,105}</t>
+ <t id="2107">{30135,107}</t>
  <t id="2201">Seeking Rare Spices</t>
  <t id="2202">While the standard spices produced on the market suffice to give our food good taste and most people are happy with them, we feel people are missing out on more interesting flavours and we could get ahead of the competition by seeking out rarer and more exotic spices. We will pay anyone who can bring some of these spices to the manager of this station.</t>
  <t id="2203">{30135,103}</t>
  <t id="2204">{30135,104}</t>
  <t id="2205">{30135,105}</t>
+ <t id="2207">{30135,107}</t>
  <t id="2301">Help Us Keep Our Water Clean</t>
  <t id="2302">It is vital for the entire Jump Gate network that the water we produce is both clean and usable, and so it is equally important that our water filtration systems are always maintained and working. To minimise the risk of contamination, or down-time while we fix a problem, we will pay anyone who can bring replacement parts that are compatible with our systems to the station manager.</t>
  <t id="2303">{30135,103}</t>
  <t id="2304">{30135,104}</t>
  <t id="2305">{30135,105}</t>
+ <t id="2307">{30135,107}</t>
  <t id="2401">Herbicide</t>
  <t id="2402">While one might not expect weeds to be a problem in an artifical environment, it is indeed so. This station has recently had to deal with a number of unwanted plants making their way into our farms, and so we're looking for someone to provide us with safe herbicides, or the chemicals required for them, that we can use to control the spread before it gets out of hand. Suppliers will be well rewarded.</t>
  <t id="2403">{30135,103}</t>
  <t id="2404">{30135,104}</t>
  <t id="2405">{30135,105}</t>
+ <t id="2407">{30135,107}</t>
  <t id="3000">(various GMs)</t>
  <t id="3001">The Importance of First Impressions</t>
  <t id="3002">I have a meeting with a potential business partner soon, and I'm looking to make a good first impression. Having done some research, I know they are a fan of fine dining and I'd like to impress them with an extravagant meal, but I don't know the first thing about cooking! I'll reward anyone who can bring me some high-quality ingredients that might nail down this deal for me.</t>
  <t id="3003">{30135,103}</t>
  <t id="3004">{30135,104}</t>
  <t id="3005">{30135,105}</t>
+ <t id="3007">{30135,107}</t>
 </page>
 
 <page id="30136" title="Deploy Object" descr="0" voice="no">
@@ -31550,7 +31596,7 @@
 
 <page id="30138" title="Rescue Ship" descr="0" voice="no">
  <t id="1001">Caught in a Trap</t>
- <t id="1002">One of our trading pilots thought they could make it through a mine field that has been placed on one of our trade routes. It took them all of a minute to realise that they were stuck, and now we're running behind schedule. If you can help us by clearing the minefield around the ship, there's still enough time to salvage the contract before one of our competitors swoops in to steal it from us.$REQUIREMENTS$</t>
+ <t id="1002">One of our trading pilots thought they could make it through a mine field that has been placed on one of our trade routes. It took them all of a minute to realise that they were stuck, and now we're running behind schedule. If you can help us by clearing the minefield around the ship, there's still enough time to salvage the contract before one of our competitors swoops in to steal it from us.</t>
  <t id="1003">(Mines){1001,1326}</t>
  <t id="1101">Explosive Extraction</t>
  <t id="1102">A local pirate has abandoned their ship not too far away, and we believe it to be carrying important data that we'd like recovered. Before we could get to the ship though, with the pilot still missing, the pirates placed smart mines around it, which makes it difficult to get close. We need someone to disarm the mines without destroying the ship.</t>
@@ -32330,6 +32376,7 @@
  <t id="109003">(Deliver: )$AMOUNT$x $WARE$</t>
  <t id="109004">(Conversation option)Deliver: $AMOUNT$x $WARE$</t>
  <t id="109005">{30135,105}</t>
+ <t id="109007">{30135,107}</t>
 </page>
 
 <page id="30205" title="Antigone Trade Guild" descr="Texts for the Antigone Trade Guild mission group and sub-mission variants" voice="no">
@@ -32462,6 +32509,7 @@
  <t id="109003">{30204,109003}</t>
  <t id="109004">{30204,109004}</t>
  <t id="109005">{30135,105}</t>
+ <t id="109007">{30135,107}</t>
 </page>
 
 <page id="30206" title="Argon Federation Police Missions" descr="Texts for the 'Argon Federation Police missions' and sub-mission variants" voice="no">
@@ -32582,6 +32630,7 @@
  <t id="109003">{30135,1003}</t>
  <t id="109004">{30135,1004}</t>
  <t id="109005">{30135,1005}</t>
+ <t id="109007">{30135,1007}</t>
  <t id="110001">Keeping up with Supply</t>
  <t id="110002">One of our factories which produces some of our higher quality goods has been suffering a shortage of a number of resources recently. In order to keep up with demand, we need someone to dedicate some time to ensure said resources get there so production can be pushed to 100%. \n\nThey've requested that the station resource levels be raised above: $STORAGEPERCENT$%</t>
  <t id="113001">Potential Target</t>
